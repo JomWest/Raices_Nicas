@@ -522,6 +522,51 @@ width: 40px;
   margin-left: 220px;
 }
 
+#Select{
+  background-color: #a7a3a3;
+}
+
+#Disponible{
+  position: absolute;
+  background-color: rgb(9, 179, 9);
+  width: 120px;
+  height: 25px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: 400;
+  z-index: 1;
+  margin-top: -55px;
+  margin-left: 220px;
+}
+#Vendida{
+  position: absolute;
+  background-color: rgb(233, 57, 57);
+  width: 120px;
+  height: 25px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: 400;
+  z-index: 1;
+  margin-top: -55px;
+  margin-left: 220px;
+}
+
+#Rentada{
+  position: absolute;
+  background-color: rgb(179, 162, 9);
+  width: 120px;
+  height: 25px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: 400;
+  z-index: 1;
+  margin-top: -55px;
+  margin-left: 220px;
+}
+
 .clasificacion{
   position: absolute;
   display: flex ;
