@@ -530,11 +530,12 @@ width: 40px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: -8px;
 }
 
 .Ubi{
   width: 20%;
-  margin-left: -115%;
+  margin-left: -110%;
   margin-top: 10%;
 }
 
@@ -552,7 +553,7 @@ width: 40px;
   justify-content: center;
   align-items: center;
   margin-left: -55%;
-  margin-top: -20px;
+  margin-top: -22px;
 }
 
 .LogocasaNum{
