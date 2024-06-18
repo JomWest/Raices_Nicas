@@ -493,6 +493,21 @@ width: 40px;
 
 }
 
+.infocasa{
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 10px;
+}
+
+.infocasa h1{
+  color: #0D4171;
+  font-size: 15px;
+  font-weight: 400;
+}
+
 .foto img:hover {
   transform: scale(1.05);
 }
