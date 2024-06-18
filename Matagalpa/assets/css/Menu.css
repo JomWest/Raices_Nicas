@@ -478,11 +478,18 @@ width: 40px;
   letter-spacing: -0.1rem;
 }
 .precioD hr{
-  margin-left: 10px;
-  width: 280px;
-  color: #0D4171;
+  margin-left: 20px;
+  width: 330px;
   background-color: #0D4171;
   height: 2px;
+}
+
+.precioD h3{
+  margin-left: -230px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #0D4171;
+
 }
 
 .foto img:hover {
