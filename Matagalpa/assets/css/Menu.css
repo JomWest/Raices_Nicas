@@ -530,22 +530,21 @@ width: 40px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: -8px;
+  margin-top: 20px;
+  margin-left: -80px;
 }
 
-.Ubi{
-  width: 20%;
-  margin-left: -110%;
-  margin-top: 10%;
+.classDepart img{
+  width: 70px;
 }
 
-.Name{
-  margin-top: -65px;
-  margin-left: -8%;
-  color: #0D4171;
+.classDepart h2{
   font-size: 45px;
-  letter-spacing: 1.5px;
+  margin-left: -10px;
+  color: #0D4171;
+  letter-spacing: 2px;
 }
+
 
 .NUmeroPropiedades{
   display: flex ;
