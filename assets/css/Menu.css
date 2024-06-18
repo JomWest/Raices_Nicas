@@ -371,7 +371,7 @@ width: 40px;
 }
 
 .titulo h1 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 800;
   margin: 0;
   margin-left: 50px;
@@ -445,7 +445,7 @@ width: 40px;
 }
 @media (max-width: 480px) {
   .foto {
-      width: 380px;
+      width: 350px;
   }
 
 /*-----------------------------------*\
@@ -688,3 +688,4 @@ textarea.input-field {
     font-size: 20px;
     padding: 30px;
   }
+}
