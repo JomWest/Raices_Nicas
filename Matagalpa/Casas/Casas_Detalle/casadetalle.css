@@ -714,7 +714,7 @@ body.active {
     position: relative;
     width: 102%;
     max-width: 800px;
-    max-height: 400px;
+    max-height: 600px;
     overflow: hidden;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -941,9 +941,9 @@ body.active {
     gap: 5px;
 }
 
-.contacto-ceo img{
-    width: 65%;
-    margin-left: -40px;
+.contacto-ceoA img{
+    width: 105%;
+    margin-left: -20px;
 }
 
 

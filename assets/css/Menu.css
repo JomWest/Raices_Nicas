@@ -194,7 +194,7 @@ body.active {
   --btn-color: #0D4171;
 
   position: fixed;
-  top: -90px;
+  top: -70px;
   background-color: #ffffff;
   box-shadow: var(--shadow-1);
   animation: slideIn 0.5s ease-out forwards;
@@ -276,11 +276,11 @@ width: 40px;
 }
 
 .nav-toggle-btn.active .line.middle {
-  transform: translate(-2px, -4px) rotate(-45deg);
+  transform: translate(-2px, -5px) rotate(-45deg);
 }
 
 .nav-toggle-btn.active .line.bottom {
-  transform: translate(-3px, -12px) rotate(45deg);
+  transform: translate(-3px, -15.5px) rotate(45deg);
 }
 
 .navbar {
@@ -289,15 +289,15 @@ width: 40px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 30px);
-  background-color: var(--white);
+background-color: #025099;
   padding-inline: 20px;
-  box-shadow: var(--shadow-1);
+  box-shadow: grey;
   height: 0;
   overflow: hidden;
   visibility: hidden;
   transition: var(--transition-1);
+  color: #ffffff;
 }
-
 .navbar.active {
   height: 110px;
   visibility: visible;
@@ -687,5 +687,9 @@ textarea.input-field {
     font-weight: 600;
     font-size: 20px;
     padding: 30px;
+  }
+  .Proximamente{
+    text-align: center;
+    font-weight: 400;
   }
 }

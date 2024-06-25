@@ -276,11 +276,11 @@ width: 40px;
 }
 
 .nav-toggle-btn.active .line.middle {
-  transform: translate(-2px, -4px) rotate(-45deg);
+  transform: translate(-2px, -6px) rotate(-45deg);
 }
 
 .nav-toggle-btn.active .line.bottom {
-  transform: translate(-3px, -12px) rotate(45deg);
+  transform: translate(-3px, -15.5px) rotate(45deg);
 }
 
 .navbar {
@@ -288,14 +288,15 @@ width: 40px;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  width: calc(100% - 30px);
-  background-color: var(--white);
+  width: calc(100% );
+background-color: #025099;
   padding-inline: 20px;
-  box-shadow: var(--shadow-1);
+  box-shadow: grey;
   height: 0;
   overflow: hidden;
   visibility: hidden;
   transition: var(--transition-1);
+  color: #ffffff;
 }
 
 .navbar.active {
