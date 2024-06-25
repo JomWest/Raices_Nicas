@@ -626,7 +626,7 @@ textarea.input-field {
   bottom: 10px;
   right: 20px;
   background-color: #0D4171;
-  color: var(--white);
+  color: white;
   padding: 15px;
   border-radius: 50%;
   box-shadow: var(--shadow-1);
