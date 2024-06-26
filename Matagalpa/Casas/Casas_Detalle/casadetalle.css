@@ -724,7 +724,7 @@ body.active {
 }
 
 .modal-content {
-    top: 150px;
+    top: 100px;
     z-index: -2;
     position: absolute;
     margin-top: 900px;
