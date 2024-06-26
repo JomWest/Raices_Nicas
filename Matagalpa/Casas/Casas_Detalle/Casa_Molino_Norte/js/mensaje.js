@@ -12,3 +12,4 @@ whatsappButtons.forEach(function(button) {
         window.open(whatsappLink, "_blank");
     });
 });
+

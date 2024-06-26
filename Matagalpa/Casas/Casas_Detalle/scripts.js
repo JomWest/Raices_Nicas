@@ -102,3 +102,48 @@ document.addEventListener('DOMContentLoaded', function() {
         updateCarousel();
     }, 3000); // Cambia cada 3 segundos
 });
+
+var modal = document.getElementById("myModal");
+var modalContent = document.querySelector(".modal-content");
+var modalCarousel = document.getElementById("modalCarousel");
+var carouselInner = document.querySelector(".carousel-inner");
+
+// Función para abrir el modal y replicar el carousel
+function openModal() {
+    modal.style.display = "block";
+
+    // Limpiar el contenido existente del modalCarousel
+    modalCarousel.innerHTML = "";
+    
+    // Clonar el carousel original dentro del modal
+    var carouselClone = carouselInner.cloneNode(true);
+    modalCarousel.appendChild(carouselClone);
+}
+
+// Función para cerrar el modal
+function closeModal() {
+    modal.style.display = "none";
+}
+
+// Asignar evento click a cada imagen del carousel para abrir el modal
+var carouselItems = document.querySelectorAll(".carousel-item");
+carouselItems.forEach(function(item) {
+    item.addEventListener("click", function() {
+        openModal();
+    });
+});
+
+// Asignar evento click al botón de cerrar del modal
+var closeButton = document.querySelector(".close");
+if (closeButton) {
+    closeButton.addEventListener("click", function() {
+        closeModal();
+    });
+}
+
+// Cerrar modal si se hace clic fuera de él
+window.onclick = function(event) {
+    if (event.target == modal) {
+        closeModal();
+    }
+};
