@@ -815,7 +815,7 @@ textarea {
         display: inline-block;
     }
     
-    .submit-button {
+    #submit-button {
         background-color: #003f7d;
         color: #fff;
         border: none;
