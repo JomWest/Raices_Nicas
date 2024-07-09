@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta.3/css/all.min.css">
   <link href="https://fonts.cdnfonts.com/css/boldenvan" rel="stylesheet">
   <link rel="icon" href="./assets/images/Logo_Perfil.png" type="image/x-icon">
 </head>
@@ -78,24 +78,24 @@
 
           <label for="descripcion">Descripción:</label>
           <textarea id="descripcion" name="descripcion" placeholder="Información de la propiedad" required></textarea>
-               <p class="ejemplo">Ejemplo: “Linda Casa, Ubicada en el Barrio Pancasan, Matagalpa, zona exclusiva de la ciudad, 2 habitaciones, 2 baños y garaje.”/p>
+               <p class="ejemplo">Ejemplo: “Linda Casa, Ubicada en el Barrio Pancasan, Matagalpa, zona exclusiva de la ciudad, 2 habitaciones, 2 baños y garaje.”</p>
         </fieldset>
         <fieldset>
           <legend>Valor de la Propiedad</legend>
           <br>
           <label for="precio-venta">Precio de Venta:</label>
-          <input type="number" id="precio-venta" name="precio_venta" placeholder="Monto en dólares" required>
+          <input type="text" id="precio-venta" name="precio_venta" placeholder="Monto en dólares" required>
           <label for="precio-alquiler">Precio del Alquiler:</label>
-          <input type="number" id="precio-alquiler" name="precio_alquiler" placeholder="Monto en dólares">
+          <input type="text" id="precio-alquiler" name="precio_alquiler" placeholder="Monto en dólares">
           <p class="ejemplo">En caso de ser solo en venta dejar el espacio del alquiler en blanco</p>
         </fieldset>
         <fieldset>
           <legend>Medidas de la Propiedad</legend>
           <br>
           <label for="area-terreno">Área de Terreno en metros²:</label>
-          <input type="number" id="area-terreno" name="area_terreno" placeholder="Solo Números" required>
+          <input type="text" id="area-terreno" name="area_terreno" placeholder="Solo Números" required>
           <label for="area-construccion">Área de Construcción en metros²:</label>
-          <input type="number" id="area-construccion" name="area_construccion" placeholder="Solo Números">
+          <input type="text" id="area-construccion" name="area_construccion" placeholder="Solo Números">
           <p class="ejemplo">En caso de no tener construcciones realizadas en la propiedad omitir.</p>
         </fieldset>
         <fieldset>
@@ -169,11 +169,14 @@
       <ion-icon name="chevron-up"></ion-icon>
     </a>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/imask"></script>
   <script src="../assets/js/script.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="/Fromulario/assets/js/Fromulario.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="/Fromulario/assets/js/Fromulario.js"></script> <!-- Incluir el archivo de máscara aquí -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       emailjs.init('FJmwDXNIylfh7kixW'); 
