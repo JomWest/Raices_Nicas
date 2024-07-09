@@ -699,12 +699,12 @@ textarea.input-field {
   #Formulario
 \*-----------------------------------*/
 
-.container {
+.container_ {
   max-width: 600px;
   margin: 0 auto;
   background: #fff;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: -20px;
 }
 
 header {
@@ -717,11 +717,17 @@ header {
   height: auto;
 }
 
-h1 {
-  font-size: 1.5em;
+.Pueden {
+  font-size: 0.8em;
   color: #0056a3;
   margin-bottom: 20px;
-  text-align: center;
+  font-weight: 500;
+  text-align: left;
+}
+.siguientes{
+    margin-top: -28px;
+    color: #025099;
+    font-size: 30px;
 }
 
 form {
@@ -730,18 +736,27 @@ form {
 }
 
 fieldset {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 40px;
 }
 
 legend {
-  font-weight: bold;
+    font-weight: 600;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: -20px;
+    left: -1px;
+    width: 390px;
 }
 
 label {
-  margin-bottom: 10px;
-  font-weight: bold;
+  margin-bottom: 30px;
+  font-weight: 600;
 }
 
 input, select, textarea {
@@ -752,12 +767,74 @@ input, select, textarea {
   border-radius: 5px;
 }
 
+
+
 textarea {
   resize: vertical;
 }
 
 .ejemplo {
-  font-size: 0.9em;
+  font-size: 0.7em;
   color: #777;
   margin-top: 10px;
 }
+.custom-select {
+    appearance: none;
+    background: url('./YouTube-90.png') no-repeat right 10px center;
+    background-size: 10px;
+    padding-right: 30px; 
+
+}
+
+.custom-select::-ms-expand {
+    display: none;
+
+    }
+
+    .checkbox-group {
+        margin-bottom: 20px;
+    }
+    
+    .checkbox-container {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .checkbox-container input {
+        margin-right: 10px;
+        margin-top: 0;
+        vertical-align: middle;
+        width: 10px;
+    }
+    
+    .checkbox-container span {
+        vertical-align: middle;
+        display: inline-block;
+    }
+    
+    .submit-button {
+        background-color: #003f7d;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 1em;
+        display: block;
+        margin: 0 auto;
+        width: 350px;
+        height: 45px;
+    }
+    
+    .submit-button:hover {
+        background-color: #003f7d;
+    }
+
+    #rotulo{
+        position: relative;
+
+    }

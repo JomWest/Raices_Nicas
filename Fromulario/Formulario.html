@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAÍCES NICAS</title>
+
+<link rel="stylesheet" href="./assets/css/Formulario.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.cdnfonts.com/css/boldenvan" rel="stylesheet">
+  <link rel="icon" href="./assets/images/Logo_Perfil.png" type="image/x-icon">
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+  
+      </h1>
+
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Menú</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Nuestras Redes</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+<br>
+<br>
+<br>
+<div class="container_">
+    <header>
+        <div class="logo">
+            <img src="/assets/images/Captura_de_pantalla_2024-07-08_173840-removebg-preview.png" alt="Raíces Nicas">
+        </div>
+    </header>
+    
+    <main>
+        <h1 class="Pueden">PUEDES RELLENAR LOS</h1>
+         <h2 class="siguientes">SIGUIENTES DATOS</h2>
+        <form>
+            <fieldset>
+                <legend>Datos generales de la propiedad</legend>
+                <br>
+                <label for="tipo-propiedad">Tipo de propiedad:</label>
+                <select id="tipo-propiedad" name="tipo-propiedad" class="custom-select">
+                    <option value="">Seleccione la Categoría</option>
+                    <option value="">Renta</option>
+                    <option value="">Venta</option>
+                    <option value="">Terreno</option>
+                    <option value="">Venta y Renta</option>
+
+                </select>
+
+                <label for="ubicacion">Ubicación:</label>
+                <select id="ubicacion" name="ubicacion" class="custom-select">
+                    <option value="">Seleccione su Ubicación</option>
+                    <option value="">Matagalpa</option>
+                    <option value="">JInotega</option>
+                    <option value="">Esteli</option>
+                    <option value="">Managua</option>
+                    <option value="">Leon</option>
+
+
+                </select>
+                <p class="ejemplo">(Ejemplo: Matagalpa, Managua, Jinotega, Etc)"</p>
+                <br>
+
+                <label for="direccion">Dirección:</label>
+                <textarea type="text" id="direccion" name="direccion" placeholder="Dirección de la propiedad"></textarea>
+
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" placeholder="Información de la propiedad"></textarea>
+
+                <p class="ejemplo">Ejemplo: "Linda Casa, Ubicada en el Barrio Pancasan, Matagalpa, zona exclusiva de la ciudad, 2 habitaciones, 2 baños y garage"</p>
+            </fieldset>
+        </form>
+    </main>
+    <main>
+      <form>
+          <fieldset>
+              <legend>Valor de la Propiedad</legend>
+              <br>
+              <label for="direccion">Precio de Venta:</label>
+              <input type="number" id="direccion" name="direccion" placeholder="Monto en dólares">
+              <label for="direccion">Precio de Venta:</label>
+              <input type="number" id="direccion" name="direccion" placeholder="Monto en dólares">
+
+          </fieldset>
+      </form>
+  </main>
+  <main>
+    <form>
+        <fieldset>
+            <legend>Medidas de la Propiedad</legend>
+            <br>
+            <label for="direccion">Área de Terreno en metros²</label>
+            <input type="number" id="direccion" name="direccion" placeholder="Solo Números">
+            <label for="direccion">Área de Construcción en metros²</label>
+            <input type="number" id="direccion" name="direccion" placeholder="Solo Números">
+            <p class="ejemplo">En caso de no tener construcciones realizadas en la propiedad omitir."</p>
+
+        </fieldset>
+    </form>
+</main>
+<main>
+  <form>
+      <fieldset>
+          <legend>Datos Personales</legend>
+          <br>
+          <label for="direccion">Nombre del Vendedor</label>
+          <input type="number" id="direccion" name="direccion" placeholder="Nombre">
+          <label for="direccion">Numero de Celular del Dueño:</label>
+          <input type="number" id="direccion" name="direccion" placeholder="(505) 8555-5555">
+          <label for="direccion">Correo del Dueño:</label>
+          <input type="number" id="direccion" name="direccion" placeholder="Correo">
+          <p class="ejemplo">En caso de no tener construcciones realizadas en la propiedad omitir."</p>
+
+      </fieldset>
+  </form>
+</main>
+<main>
+  <form>
+    <fieldset>
+      
+      <div class="checkbox-group">
+          <label class="checkbox-container">
+              <input id="rotulo" type="checkbox" name="rotulo">
+              <span class="checkbox-label">Solicitar rótulo para la propiedad</span>
+          </label>
+          <label class="checkbox-container">
+              <input type="checkbox" name="terminos">
+              <span class="checkbox-label">He leído los términos y condiciones y acepto que Raíces Nicas publique información acerca de mi Propiedad</span>
+          </label>
+          
+  <button type="submit" class="submit-button">ENVIAR FORMULARIO</button>
+      </div>
+      
+  </fieldset>
+
+</form>
+
+  </form>
+</main>
+</div>
+
+  <br>
+  <br>
+  <div class="contactanos">
+    <h1>CONTÁCTANOS</h1>
+    <div class="contacto-item">
+      <img src="../assets/images/icono-email.png.png" alt="Email" class="icono">
+      <span id="spammm">informacion@raicesnicas.com</span>
+    </div>
+    <div class="contacto-item">
+      <img src="../assets/images/icono-telefono.png.png" alt="Teléfono" class="icono">
+      <span id="spammm">505 8732 6292</span>
+    </div>
+    <div class="contacto-item">
+      <img src="../assets/images/icono-whatsapp.png" alt="WhatsApp" class="icono">
+      <span id="spammm">505 8732 6292</span>
+    </div>
+    <br>
+    <br>
+    <footer class="footer">
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="social-icons">
+            <a href="https://wa.me/50587326292" target="_blank" class="icono">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61556156571957&mibextid=LQQJ4d" target="_blank" class="icono">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/raicesnicas_?igsh=YTQwZjQ0NmI0OA==" target="_blank" class="icono">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@raicesnicas_?_t=8nU6RPA6EiL&_r=1" target="_blank" class="icono">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+          <br>
+        </div>
+      </div>
+
+    </footer>
+
+    <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <script src="../assets/js/script.js" defer></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
