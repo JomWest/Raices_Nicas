@@ -13,6 +13,9 @@
 li {
   list-style: none;
 }
+.Ws-button{
+  background-color: green;
+}
 
 a {
   text-decoration: none;

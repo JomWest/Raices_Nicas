@@ -230,7 +230,9 @@ body.active {
 
 }
 
-
+#Washa{
+  background-color: rgb(16, 241, 16);
+}
 
 .header-btn-group {
   display: flex;
@@ -468,6 +470,9 @@ background-color: #025099;
 
 .info_personal img {
   margin-top: 15px;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
 }
 
 .info_personal h2 {
@@ -500,6 +505,7 @@ background-color: #025099;
   margin: 20px;
   height: 45px;
 }
+
 
 .contacto-item img {
   margin-left: 30px;

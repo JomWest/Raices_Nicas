@@ -985,6 +985,11 @@ body.active {
     margin-left: 12px;
     margin-top: 22px;
 }
+#perfil{
+    width: 80px;
+    height: 75px;
+    border-radius: 100%;
+}
 .name-ceo{
     margin-left: -20px;
 }
@@ -1004,7 +1009,7 @@ body.active {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
 }
 
 .contacto-ceoA img{

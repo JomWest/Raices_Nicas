@@ -26,7 +26,6 @@
 
 <body id="top">
 
-    <!-- Carusel de imagen -->
     <a href="../../../Matagalpa.html"><img class="btn_salir" src="../btn_salir.png" alt=""></a>
     <div class="carousel">
         <div class="carousel-inner">
@@ -85,16 +84,13 @@
             }
         });
 
-        // Obtener el elemento <span> que cierra el modal
         var span = document.getElementsByClassName("close")[0];
 
-        // Cuando el usuario haga clic en <span> (x), cierra el modal
+
         span.onclick = function () {
             modal.style.display = "none";
         }
     </script>
-        <!-- <a class="carousel-control prev" href="#">&lt;</a>
-    <a class="carousel-control next" href="#">&gt;</a> -->
         <div class="carousel-indicators">
             <span class="indicator active" data-slide-to="0"></span>
             <span class="indicator" data-slide-to="1"></span>
@@ -139,7 +135,7 @@
         </div>
      </div>
      <div class="datos-ceo">
-        <img src="../../../../assets/images/FotoPerfil.png" alt="">
+        <img id="perfil" src="../../../../assets/images/FotoPerfil.jpg" alt="">
         <div class="name-ceo">
             <h1>Orlando Blandón</h1>
             <h2>CEO y Fundador</h2>
