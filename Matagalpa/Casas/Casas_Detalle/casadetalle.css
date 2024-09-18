@@ -867,6 +867,7 @@ body.active {
     font-size: 13px;
     border-radius: 10px;
     font-weight: 400;
+    margin-left: -200px;
 }
 
 .indicadores {
