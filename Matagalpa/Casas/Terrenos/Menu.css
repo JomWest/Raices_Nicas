@@ -203,7 +203,15 @@ body.active {
 
 }
 
+@keyframes slideIn {
+  0% {
+    transform: translateY(0);
+  }
 
+  100% {
+    transform: translateY(100%);
+  }
+}
 
 .header .container {
   display: flex;
@@ -428,7 +436,7 @@ background-color: #025099;
 .foto img {
   padding: 20px;
   width: 360px;
-  height: 250px;
+  height: 360px;
   margin-left: 5px;
   border-radius: 30px;
 
@@ -451,21 +459,22 @@ background-color: #025099;
 }
 
 .ubicacioncasa img{
+  position: relative;
   width: 22%;
-  margin-top: -100px;
+  margin-top: -150px;
+  margin-left: -45px;
 }
 
 .ubicacioncasa h3{
   font-size: 14px;
-  margin-top: -100px;
-  margin-left: -20px;
+  margin-top: -150px;
+  margin-left: -95px;
   font-weight: 400;
-  width: 500px;
-  text-align: left;
+  width: 350px;
 }
 
 .precioD h1{
-  margin-top: -80px;
+  margin-top: -130px;
   margin-left: -185px;
   font-weight: 400;
   font-size: 20px;
@@ -592,17 +601,18 @@ background-color: #025099;
 }
 @media (max-width: 768px) {
   .foto {
-      width: 120px;
+      width: 150px;
   }
 }
 @media (max-width: 480px) {
   .foto {
       width: 370px;
-      height: 495px;
+      height: 590px;
   }
 
   .Propiedades{
-    width: 300px;
+    width: 500px;
+    height: 300px;
   }
 
 }
